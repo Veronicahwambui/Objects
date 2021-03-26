@@ -1,7 +1,7 @@
 fun main() {
-var person=Human("Jane",43,58)
+    var person=Human("Jane",43,58)
     person.eat(9)
-   println(person.weight)
+    println(person.weight)
     person.speak("My name is veronicah Njenga from Nairobi")
     var sarah=Fields("Peninah","Njeri","peninahnjeri@gmail.com","075656543","Njeri345")
     person.birthday()
@@ -31,3 +31,5 @@ class Human(var name:String, var age:Int,var weight: Int) {
 
 }
 data class Fields(var FirstName:String,var LastName:String,var email:String,var phoneNumber:String,var password:String)
+
+
